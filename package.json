@@ -1,0 +1,50 @@
+{
+  "name": "Pion",
+  "displayName": "Pion",
+  "description": "VSCode Dark Theme Pion",
+  "version": "1.0.1",
+  "publisher": "aleksandr71914-cell",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/pion.png",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "dark+",
+    "peony",
+    "pion",
+    "牡丹",
+    "暗色主题",
+    "低对比度",
+    "舒适阅读"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleksandr71914-cell/Pion"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "images": [
+      "images/1.png",
+      "images/2.png",
+      "images/3.png",
+      "images/4.png",
+      "images/5.png",
+      "images/6.png"
+    ]
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pion.json"
+      }
+    ]
+  }
+}
